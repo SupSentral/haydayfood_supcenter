@@ -42,13 +42,11 @@ export function initClipboard() {
 
         const totalHarga = totalFood * price;
 
-        text += "\n────────────────────\n\n";
+        text += "\n────────────────────\n";
 
-        text += `Total Food : ${totalFood}\n\n`;
+        text += `Total Food : ${totalFood}\n`;
 
-        text += `Harga / Food : Rp${price.toLocaleString("id-ID")}\n\n`;
-
-        text += "────────────────────\n\n";
+        text += "────────────────────\n";
 
         text += `TOTAL : Rp${totalHarga.toLocaleString("id-ID")}`;
 
