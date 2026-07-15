@@ -188,15 +188,7 @@ export function renderSelected(){
             <strong>${totalFood}</strong>
 
         </div>
-
-        <div class="summary-row">
-
-            <span>Harga / Food</span>
-
-            <strong>Rp ${price.toLocaleString("id-ID")}</strong>
-
-        </div>
-
+        
         <div class="summary-divider"></div>
 
         <div class="grand-total">
