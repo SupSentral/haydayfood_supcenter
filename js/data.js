@@ -82,7 +82,7 @@ export const foodsData = [
 
   // Coffee Kiosk
   { en: "Espresso",                lvl: 42,  fn: "Coffee Kiosk" },
-  { en: "Latte",                   lvl: 43,  fn: "Coffee Kiosk" },
+  { en: "Caffe Latte",             lvl: 43,  fn: "Coffee Kiosk" },
   { en: "Mocha",                   lvl: 45,  fn: "Coffee Kiosk" },
   { en: "Raspberry Mocha",         lvl: 46,  fn: "Coffee Kiosk" },
   { en: "Hot Chocolate",           lvl: 47,  fn: "Coffee Kiosk" },
@@ -296,9 +296,9 @@ export const foodsData = [
   { en: "Guava Compote",           lvl: 104, fn: "Preservation Station" },
 
   // Salad Bar
-  { en: "Greek Salad",             lvl: 58,  fn: "Salad Bar" },
+  { en: "Feta Salad",              lvl: 58,  fn: "Salad Bar" },
   { en: "Bean Salad",              lvl: 58,  fn: "Salad Bar" },
-  { en: "Bacon Salad",             lvl: 62,  fn: "Salad Bar" },
+  { en: "BLT Salad",               lvl: 62,  fn: "Salad Bar" },
   { en: "Seafood Salad",           lvl: 64,  fn: "Salad Bar" },
   { en: "Pasta Salad",             lvl: 67,  fn: "Salad Bar" },
   { en: "Veggie Platter",          lvl: 74,  fn: "Salad Bar" },
