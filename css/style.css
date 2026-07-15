@@ -232,17 +232,35 @@ body{
 }
 
 .wa-profile{
-    background:#25d366;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    padding:12px 18px;
+
+    border-radius:14px;
+
+    background:#25D366;
+
     color:#fff;
-    box-shadow:0 6px 16px rgba(37,211,102,.28);
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.25s;
 }
 
 .wa-profile:hover{
-    background:#20bc59;
+    background:#1ebe5d;
     transform:translateY(-2px);
-    box-shadow:0 10px 22px rgba(37,211,102,.32);
 }
 
+.wa-profile i{
+    font-size:22px;
+    color:#fff;
+}
 .contact-buttons svg{
     width:17px;
     height:17px;
