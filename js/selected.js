@@ -31,7 +31,7 @@ export function initSelected() {
 
             const name = e.target.dataset.name;
 
-            changeQty(name, -1);
+            changeQty(name, -5);
 
         }
 
