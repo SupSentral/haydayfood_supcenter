@@ -130,8 +130,8 @@ body{
 }
 
 .hero-logo img{
-    width:128px;
-    height:128px;
+    width:200px;
+    height:200px;
     border-radius:50%;
     background:var(--surface);
     object-fit:cover;
