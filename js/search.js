@@ -177,3 +177,11 @@ function resetSearch() {
     renderFoods(currentFoods, selectedFoods);
 
 }
+
+// ==========================================
+// REFRESH HASIL SEARCH
+// ==========================================
+
+export function refreshSearch() {
+    updateFoods();
+}
