@@ -3,8 +3,7 @@
 // Mengelola Item yang Dipilih
 // ==========================================
 
-import { foodsData } from "./data.js";
-import { renderFoods } from "./render.js";
+import { refreshSearch } from "./search.js";
 import { renderSelectedCount } from "./statistics.js";
 import { saveSelectedFoods, clearSelectedFoods } from "./storage.js";
 
@@ -31,7 +30,7 @@ export function initSelected() {
 
             const name = e.target.dataset.name;
 
-            changeQty(name, -5);
+            changeQty(name, -1);
 
         }
 
@@ -103,7 +102,7 @@ function updateQty(name, qty) {
 
 function refreshUI() {
 
-    renderFoods(foodsData, selectedFoods);
+    refreshSearch();
 
     renderSelected();
 
@@ -188,7 +187,7 @@ export function renderSelected(){
             <strong>${totalFood}</strong>
 
         </div>
-        
+
         <div class="summary-divider"></div>
 
         <div class="grand-total">
